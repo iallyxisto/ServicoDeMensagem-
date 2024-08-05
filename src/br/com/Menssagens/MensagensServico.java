@@ -1,17 +1,17 @@
 package br.com.Menssagens;
 
-public class MensagensServico {
-     public void enviarMensagem() {
+public class Abstract MensagensServico  {
+     public default void enviarMensagem() {
          validarConeccaoInternet();
          System.out.println("enviando mensagem");
 
      }
-     public void receberMensagem() {
+     public default void receberMensagem() {
          System.out.println("recebendo mensagem");
 
      }
 
-     public void deletarMensagem() {
+     public default void deletarMensagem() {
          System.out.println("deletando mensagem");
 
      }

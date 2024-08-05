@@ -1,6 +1,6 @@
 package br.com.Menssagens;
 
-public class MenssegerFacebook extends MensagensServico {
+public class MenssegerFacebook implements MensagensServico {
 
 
 }

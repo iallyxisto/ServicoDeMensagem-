@@ -1,5 +1,5 @@
 package br.com.Menssagens;
 
-public class Telegram  extends  MensagensServico {
+public class Telegram  implements   MensagensServico {
 
 }
